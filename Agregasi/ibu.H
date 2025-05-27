@@ -15,5 +15,13 @@ class ibu {
        }
        void tambahAnak(anak*);
        void cetakAnak();
+}
 
-};
+void ibu:cetakAnak() {
+    cout << "Daftar anak dari ibu \"" <<
+    this->nama << "\":\n";
+    for (int i = 0; i < daftar_anak.size(); i++) {
+        cout << daftar_anak[i]->anak << endl;
+    }
+    cout << endl
+}
